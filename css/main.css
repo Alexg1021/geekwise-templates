@@ -4,7 +4,7 @@ body{
 }
 
 #main{
-    height: 1330px;
+    height: 1500px;
     width: 95%;
     background-color: rgba(225,225,225,.5);
     margin: 5% auto;
@@ -22,6 +22,7 @@ body{
     width: 100%;
     overflow:hidden;
     border-radius: 5px;
+    margin: 15px 0;
 }
 
 #main img{
@@ -35,4 +36,9 @@ body{
 }
 #main li{
     font-size: 1.2em;
+}
+@media (max-width: 762px) {
+  #main{
+      height: 2400px;
+  }
 }
